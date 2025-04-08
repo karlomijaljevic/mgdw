@@ -114,12 +114,6 @@ function f_parse_flags {
         for flag in "${@}";
         do
                 if [ "${flag}" == "${p_help[0]}" ] || [ "${flag}" == "${p_help[1]}" ]; then
-                        echo "This script is used to download manga from the Mangaread website."
-                        echo "You run the script with no parameters provided and it will ask you"
-                        echo "for a manga name. After it finds manga you will be presented titles"
-                        echo "that match your query. Then you choose the manga and chapter/s and"
-                        echo "that's that."
-                        echo
                         echo "The only flags this script accepts are:"
                         echo "--help, -h"
                         echo "--version, -v"

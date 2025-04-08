@@ -1,7 +1,8 @@
 # MGDW
 
-This simple script is used to download manga from Mangaread. It needs a couple
-of programs to works properly:
+This simple script is used to download manga from Mangaread. Just to be clear,
+this is only for testing web scraping skills and definitely not for any sketchy
+stuff. It needs a couple of programs to works properly:
 
 - [jq](https://github.com/jqlang/jq)
 - [img2pdf](https://github.com/myollie/img2pdf)
